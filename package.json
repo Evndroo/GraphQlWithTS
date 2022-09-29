@@ -5,7 +5,8 @@
   "main": "build/index.js",
   "scripts": {
     "start:dev": "nodemon",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint . --ext .ts"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,9 @@
   "homepage": "https://github.com/Evndroo/GraphQlWithTS#readme",
   "devDependencies": {
     "@types/node": "^18.7.23",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint": "^8.24.0",
     "install": "^0.13.0",
     "nodemon": "^2.0.20",
     "ts-node": "^10.9.1",

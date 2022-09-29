@@ -4,6 +4,12 @@
     "lib": [
       "es6"
     ],
+    "baseUrl": "/",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+    },
     "module": "commonjs",
     "rootDir": "src",
     "resolveJsonModule": true,
